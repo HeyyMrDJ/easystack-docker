@@ -1,0 +1,14 @@
+{
+	"servers": {
+		"easystack-docker": {
+			"type": "stdio",
+			"command": "go",
+			"args": [
+				"run",
+				"."
+			],
+			"cwd": "${workspaceFolder}"
+		},
+	},
+	"inputs": []
+}
